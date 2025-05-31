@@ -36,22 +36,30 @@
 					<nav>
 						<ul class="nav nav-pills">
 							<li class="nav-item">
-								<a href="#" class="nav-link a-indigo">Inicio</a>
+								<a href="#inicio" class="nav-link a-indigo">Inicio</a>
 							</li>
 							<li class="nav-item">
-								<a href="#" class="nav-link a-indigo">Serviços</a>
+								<a href="#servicos" class="nav-link a-indigo"
+									>Serviços</a
+								>
 							</li>
 							<li class="nav-item">
-								<a href="#" class="nav-link a-indigo">Sobre mim</a>
+								<a href="#sobremim" class="nav-link a-indigo"
+									>Sobre mim</a
+								>
 							</li>
 							<li class="nav-item">
-								<a href="#" class="nav-link a-indigo">Habilidades</a>
+								<a href="#habilidades" class="nav-link a-indigo"
+									>Habilidades</a
+								>
 							</li>
 							<li class="nav-item">
-								<a href="#" class="nav-link a-indigo">Portifolio</a>
+								<a href="#portifolio" class="nav-link a-indigo"
+									>Portifolio</a
+								>
 							</li>
 							<li class="nav-item">
-								<a href="#" class="nav-link a-indigo">Contato</a>
+								<a href="#contato" class="nav-link a-indigo">Contato</a>
 							</li>
 						</ul>
 					</nav>
@@ -59,7 +67,7 @@
 			</div>
 		</header>
 		<main>
-			<section class="container mb-4 rounded-3">
+			<section id="inicio" class="container mb-4 rounded-3">
 				<div class="container-fluid py-5">
 					<h1 class="display-5 fw-bold text-white">
 						Olá, eu sou Gustavo<br />
@@ -70,18 +78,31 @@
 						e expandir meus conhecimentos. Tenho interesse nas áreas de
 						suporte técnico, manutenção de computadores e desenvolvimento.
 					</p>
-					<button class="btn btn-indigo btn-lg" type="button">
+					<a href="#servicos" class="btn btn-indigo btn-lg" type="button">
 						Saiba mais
-					</button>
+					</a>
+					<a class="ms-3" href="https://github.com/gustavoandreyif">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="40"
+							height="40"
+							fill="white"
+							viewBox="0 0 24 24"
+						>
+							<path
+								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.334-5.466-5.93 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.018.005 2.045.138 3.003.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.625-5.475 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+							/>
+						</svg>
+					</a>
 				</div>
 			</section>
 
 			<div class="my-7"></div>
 
-			<section class="container mb-4 rounded-3">
+			<section id="servicos" class="container mb-4 rounded-3">
 				<div class="section-title mb-4">
 					<span class="subtext-label text-white">Serviços</span>
-					<h1 class="text-indigo text-title">O Que eu Faço</h1>
+					<h1 class="text-indigo text-title">O Que Faço</h1>
 					<div class="section-underline"></div>
 				</div>
 				<div
@@ -275,7 +296,239 @@
 
 			<div class="my-7"></div>
 
-			<section class="container mb-4 rounded-3">
+			<section id="sobremim" class="container mb-4 rounded-3">
+				<div class="section-title mb-4">
+					<span class="subtext-label text-white">Sobre mim</span>
+					<h1 class="text-indigo text-title">Quem Eu Sou</h1>
+					<div class="section-underline"></div>
+				</div>
+				<div class="collapse-btn-group mb-3">
+					<button
+						class="btn btn-indigo collapse-btn"
+						type="button"
+						id="btn-collapse1"
+					>
+						Formação
+					</button>
+					<button
+						class="btn btn-indigo collapse-btn"
+						type="button"
+						id="btn-collapse2"
+					>
+						Experiencias
+					</button>
+					<button
+						class="btn btn-indigo collapse-btn"
+						type="button"
+						id="btn-collapse3"
+					>
+						Habilidades
+					</button>
+				</div>
+				<div class="collapse-content-group">
+					<div class="collapse show collapse-fade" id="collapse1">
+						<div class="card card-body bg-dark-section border-0">
+							<h3 class="text-indigo mb-3">
+								Formação Acadêmica e Cursos
+							</h3>
+							<ul>
+								<li class="text-white">
+									IFRN Campus Parnamirim – Técnico de Nivel Médio em
+									Informática, na Forma Integrado (Cursando – 3º ano
+									da manhã) – Previsão de conclusão: 2026
+								</li>
+								<li class="text-white">
+									Curso de Operador de Computador – Prepara Cursos
+									Profissionalizantes – 2020
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="collapse collapse-fade" id="collapse2">
+						<div class="card card-body bg-dark-section border-0">
+							<h3 class="text-indigo mb-3">Experiencias Praticas</h3>
+							<ul>
+								<li class="text-white">
+									Desenvolvimento de pequenos projetos de web durante
+									o curso.
+								</li>
+								<li class="text-white">
+									Participação em trabalhos em grupo para
+									desenvolvimento de projetos.
+								</li>
+								<li class="text-white">
+									Experiência em manutenção de computadores e suporte
+									técnico básico.
+								</li>
+								<li class="text-white">
+									Bolsista TAI (Tutor em Apoio ao Ensino e
+									Aprendizagem Inclusivo) no IFRN, atuando como
+									monitor de informática.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="collapse collapse-fade" id="collapse3">
+						<div class="card card-body bg-dark-section border-0">
+							<h3 class="text-indigo mb-3">
+								Habilidades Tecnicas e Interperssoais
+							</h3>
+							<ul>
+								<li class="text-white">
+									Conhecimento em HTML, CSS, Bootstrap e Typescript
+									para desenvolvimento web.
+								</li>
+								<li class="text-white">
+									Experiência com Git e GitHub para controle de
+									versionamento.
+								</li>
+								<li class="text-white">
+									Conhecimento básico em Python.
+								</li>
+								<li class="text-white">
+									Habilidade em manutenção de computadores e suporte
+									técnico.
+								</li>
+								<li class="text-white">
+									Conhecimento basico em redes de computadores e banco
+									de dados
+								</li>
+								<li class="text-white">
+									Boa comunicação e trabalho em equipe.
+								</li>
+								<li class="text-white">
+									Capacidade de aprendizado rápido e adaptação a novas
+									tecnologias.
+								</li>
+								<li class="text-white">Apaixonado por computadores.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="my-7"></div>
+
+			<section id="habilidades" class="container mb-4 rounded-3">
+				<div class="section-title mb-4">
+					<span class="subtext-label text-white">Habilidades</span>
+					<h1 class="text-indigo text-title">Tecnologias Que Uso</h1>
+					<div class="section-underline"></div>
+				</div>
+				<div
+					class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-4 justify-content-center text-center"
+				>
+					<div class="col">
+						<div class="p-3">
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+								alt="JavaScript"
+								width="48"
+								height="48"
+							/>
+						</div>
+					</div>
+					<div class="col">
+						<div class="p-3">
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+								alt="TypeScript"
+								width="48"
+								height="48"
+							/>
+						</div>
+					</div>
+					<div class="col">
+						<div class="p-3">
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+								alt="HTML5"
+								width="48"
+								height="48"
+							/>
+						</div>
+					</div>
+					<div class="col">
+						<div class="p-3">
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+								alt="CSS3"
+								width="48"
+								height="48"
+							/>
+						</div>
+					</div>
+					<div class="col">
+						<div class="p-3">
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+								alt="Git"
+								width="48"
+								height="48"
+							/>
+						</div>
+					</div>
+					<div class="col">
+						<div class="p-3">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="48"
+								height="48"
+								fill="white"
+								viewBox="0 0 24 24"
+							>
+								<path
+									d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.084-.729.084-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.334-5.466-5.93 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23a11.52 11.52 0 0 1 3.003-.404c1.018.005 2.045.138 3.003.404 2.291-1.553 3.297-1.23 3.297-1.23.653 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.625-5.475 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.216.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+								/>
+							</svg>
+						</div>
+					</div>
+					<div class="col">
+						<div class="p-3">
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+								alt="Python"
+								width="48"
+								height="48"
+							/>
+						</div>
+					</div>
+					<div class="col">
+						<div class="p-3">
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+								alt="SQL"
+								width="48"
+								height="48"
+							/>
+						</div>
+					</div>
+					<div class="col">
+						<div class="p-3">
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+								alt="Node.js"
+								width="48"
+								height="48"
+							/>
+						</div>
+					</div>
+					<div class="col">
+						<div class="p-3">
+							<img
+								src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+								alt="Bootstrap"
+								width="48"
+								height="48"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="my-7"></div>
+
+			<section id="portifolio" class="container mb-4 rounded-3">
 				<div class="section-title mb-4">
 					<span class="subtext-label text-white">Portifolio</span>
 					<h1 class="text-indigo text-title">Meus Projetos Anteriores</h1>
@@ -285,74 +538,104 @@
 					class="row row-cols-1 row-cols-md-3 mb-3 text-center d-flex align-items-stretch"
 				>
 					<div class="col">
-						<div class="card mb-3 shadow-sm border-0 rounded-3 my-4 h-100">
-							<img
-								src="https://via.placeholder.com/600x300.png?text=Projeto+1"
-								class="card-img-top"
-								alt="Projeto"
-								style="object-fit: cover; height: 220px"
-							/>
+						<a
+							class="text-decoration-none"
+							href="https://github.com/GustavoAndreyIF/Divino-Lanches"
+						>
 							<div
-								class="card-body bg-dark-card d-flex flex-column align-items-start justify-content-center text-start ps-4 py-3"
+								class="card mb-3 shadow-sm border-0 rounded-3 my-4 h-100"
 							>
-								<h4 class="card-title mb-3">
-									<small class="text-white">Nome do Projeto</small>
-								</h4>
-								<p class="card-text fw-light text-white mb-0">
-									Breve descrição do projeto, tecnologias utilizadas e
-									objetivo principal.
-								</p>
+								<img
+									src="./img/DivinoLanches.png"
+									class="card-img-top"
+									alt="Projeto"
+									style="object-fit: cover; height: 220px"
+								/>
+								<div
+									class="card-body bg-dark-card d-flex flex-column align-items-start justify-content-start text-start ps-4 py-3"
+								>
+									<h4 class="card-title mb-3">
+										<small class="text-white">Divino Lanches</small>
+									</h4>
+									<p class="card-text fw-light text-white mb-0">
+										Feito para o trabalho de PEOO do IFRN, esse
+										projeto e um marketplace de lanches, onde o
+										usuário pode fazer pedidos e o dono do
+										restaurante pode gerenciar os pedidos.
+										Utilizando HTML, CSS, Typescript e Bootstrap.
+									</p>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 					<div class="col">
-						<div class="card mb-3 shadow-sm border-0 rounded-3 my-4 h-100">
-							<img
-								src="https://via.placeholder.com/600x300.png?text=Projeto+1"
-								class="card-img-top"
-								alt="Projeto"
-								style="object-fit: cover; height: 220px"
-							/>
+						<a
+							class="text-decoration-none"
+							href="https://github.com/GustavoAndreyIF/World-Cup-JSON"
+						>
 							<div
-								class="card-body bg-dark-card d-flex flex-column align-items-start justify-content-center text-start ps-4 py-3"
+								class="card mb-3 shadow-sm border-0 rounded-3 my-4 h-100"
 							>
-								<h4 class="card-title mb-3">
-									<small class="text-white">Nome do Projeto</small>
-								</h4>
-								<p class="card-text fw-light text-white mb-0">
-									Breve descrição do projeto, tecnologias utilizadas e
-									objetivo principal.
-								</p>
+								<img
+									src="./img/World-Cup-JSON.png"
+									class="card-img-top"
+									alt="Projeto"
+									style="object-fit: cover; height: 220px"
+								/>
+								<div
+									class="card-body bg-dark-card d-flex flex-column align-items-start justify-content-start text-start ps-4 py-3"
+								>
+									<h4 class="card-title mb-3">
+										<small class="text-white">World Cup Json</small>
+									</h4>
+									<p class="card-text fw-light text-white mb-0">
+										Feito tambem para a materia de PEOO do IFRN, com
+										o objetivo de utilizar API, esse projeto foi
+										construido usando html, css e javascript puro,
+										com ele podemos ver dados da copa do mundo de
+										2022.
+									</p>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 					<div class="col">
-						<div class="card mb-3 shadow-sm border-0 rounded-3 my-4 h-100">
-							<img
-								src="https://via.placeholder.com/600x300.png?text=Projeto+1"
-								class="card-img-top"
-								alt="Projeto"
-								style="object-fit: cover; height: 220px"
-							/>
+						<a
+							href="https://github.com/GustavoAndreyIF/CurriculoAutoriaWeb"
+							class="text-decoration-none"
+						>
 							<div
-								class="card-body bg-dark-card d-flex flex-column align-items-start justify-content-center text-start ps-4 py-3"
+								class="card mb-3 shadow-sm border-0 rounded-3 my-4 h-100"
 							>
-								<h4 class="card-title mb-3">
-									<small class="text-white">Nome do Projeto</small>
-								</h4>
-								<p class="card-text fw-light text-white mb-0">
-									Breve descrição do projeto, tecnologias utilizadas e
-									objetivo principal.
-								</p>
+								<img
+									src="./img/curriculo.png"
+									class="card-img-top"
+									alt="Projeto"
+									style="object-fit: cover; height: 220px"
+								/>
+								<div
+									class="card-body bg-dark-card d-flex flex-column align-items-start justify-content-start text-start ps-4 py-3"
+								>
+									<h4 class="card-title mb-3">
+										<small class="text-white">Este projeto!</small>
+									</h4>
+									<p class="card-text fw-light text-white mb-0">
+										Esse curriculo foi desenvolvido para a materia
+										de autoria web do IFRN, onde o objetivo era
+										criar um curriculo online simples, utilizando
+										HTML e CSS para demonstrar o conteudo aprendido
+										em sala.
+									</p>
+								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</section>
 
 			<div class="my-7"></div>
 
-			<section class="container mb-4 rounded-3">
+			<section id="contato" class="container mb-4 rounded-3">
 				<div class="row mb-3">
 					<div class="col-md-8">
 						<div class="section-title mb-4">
@@ -381,15 +664,56 @@
 							</div>
 							<button
 								class="btn btn-lg btn-indigo d-block ms-auto"
-								type="submit"
+								type="button"
+								id="liveToastBtn"
 							>
 								Contatar
 							</button>
 						</form>
+						<div class="toast-container position-fixed bottom-0 end-0 p-3">
+							<div
+								id="liveToast"
+								class="toast custom-toast"
+								role="alert"
+								aria-live="assertive"
+								aria-atomic="true"
+							>
+								<div
+									class="toast-header bg-dark-section text-white border-0"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="24"
+										height="24"
+										fill="var(--bs-indigo)"
+										class="bi bi-envelope-check-fill me-2 text-white"
+										viewBox="0 0 16 16"
+									>
+										<path
+											d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.143l-6.57-4.027L8 9.586l-1.239-.757ZM16 4.697l-5.803 3.546L16 11.801V4.697ZM11.854 5.146a.5.5 0 0 1 .11.638l-2 3a.5.5 0 0 1-.765.063l-1-1a.5.5 0 1 1 .707-.707l.646.647 1.646-2.47a.5.5 0 0 1 .656-.171Z"
+										/>
+									</svg>
+									<strong class="me-auto text-white"
+										>Obrigado por Contatar!</strong
+									>
+									<button
+										type="button"
+										class="btn-close btn-close-white"
+										data-bs-dismiss="toast"
+										aria-label="Close"
+									></button>
+								</div>
+								<div class="toast-body bg-dark-card text-white">
+									Sua mensagem foi enviada com sucesso, entrarei em
+									contato o mais breve possível!
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
 		</main>
 		<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
