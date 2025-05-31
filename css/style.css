@@ -1,0 +1,130 @@
+.nome-curriculo {
+	font-family: "Roboto Mono", monospace !important;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--bs-white);
+	text-shadow: 1px 2px 8px rgba(111, 66, 193, 0.25);
+	margin-left: 0.25rem;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	text-underline-offset: 6px;
+	text-decoration-color: var(--bs-indigo);
+}
+
+.section-title {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 2rem;
+}
+
+.subtext-label {
+	color: #fff;
+	font-size: 1.45rem;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	margin-bottom: 0.25rem;
+}
+
+.text-title {
+	font-family: "Roboto Mono", monospace !important;
+	font-size: 2.8rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.section-underline {
+	width: 160px;
+	height: 4px;
+	border-radius: 2px;
+	background: var(--bs-indigo);
+	margin-top: 0.25rem;
+}
+
+.my-7 {
+	margin-top: 14rem !important;
+	margin-bottom: 14rem !important;
+}
+
+/* background*/
+
+.bg-dark {
+	background-color: #23272f !important;
+}
+
+.bg-dark-header {
+	background-color: #181a20 !important;
+}
+
+.bg-dark-section {
+	background-color: #242633 !important;
+}
+
+.bg-dark-card {
+	background-color: #292b36 !important;
+}
+
+/* indigo */
+
+.custom-indigo {
+	color: var(--bs-indigo) !important;
+}
+
+.a-indigo {
+	color: #fff !important;
+	background: transparent !important;
+	border: none !important;
+	transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.a-indigo:hover,
+.a-indigo:focus {
+	background-color: var(--bs-indigo) !important;
+	color: #fff !important;
+	border-radius: 0.5rem;
+	text-decoration: none;
+}
+
+.btn-indigo {
+	background-color: var(--bs-indigo) !important;
+	color: #fff !important;
+	border: none;
+	padding: 0.75rem 2.5rem;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 600;
+	transition: background 0.2s, color 0.2s;
+}
+.btn-indigo:hover,
+.btn-indigo:focus {
+	background-color: #4b0ecf !important; /* tom indigo mais escuro para hover */
+	color: #fff !important;
+}
+.text-indigo {
+	color: var(--bs-indigo) !important;
+}
+
+/* card */
+.card {
+	display: flex;
+	flex-direction: column;
+	height: 50%;
+}
+.card-body {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-dark {
+    background-color: #292b36 !important;
+    color: #fff !important;
+    border: none !important;
+    font-size: 1.25rem;
+    padding: 1rem 1.25rem;
+    height: 3.5rem;
+}
+.input-dark::placeholder {
+    color: #bbb !important;
+    opacity: 1;
+}
